@@ -1,0 +1,2 @@
+https://kafka.apache.org/documentation/
+https://kafka.apache.org/quickstart

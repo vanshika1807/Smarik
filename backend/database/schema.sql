@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS incidents (
 
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
 
-    title STRING,
+    title STRING NOT NULL,
 
     description STRING,
 
@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS incidents (
 
     author STRING,
 
-    labels STRING[],
+    labels STRING,
 
     comments INT,
 
@@ -18,6 +18,6 @@ CREATE TABLE IF NOT EXISTS incidents (
 
     updated_at TIMESTAMPTZ,
 
-    github_url STRING
+    github_url STRING UNIQUE
 
 );

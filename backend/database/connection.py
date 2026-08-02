@@ -4,12 +4,11 @@ import psycopg2
 
 load_dotenv()
 
-conn = psycopg2.connect(os.environ["DATABASE_URL"])
-
-print("connected to CockroachDB")
-
-with conn.cursor() as cur:
-    cur.execute("SELECT NOW();")
-    print(cur.fetchone())
-
-conn.close()
+def get_connection():
+    try:
+        conn = psycopg2.connect(os.environ["DATABASE_URL"])
+        return conn
+    except Exception as e:
+        print("Connection Failed!")
+        print(e)
+        return None
