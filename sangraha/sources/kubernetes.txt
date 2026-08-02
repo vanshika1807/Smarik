@@ -1,0 +1,10 @@
+https://kubernetes.io/docs/concepts/workloads/pods/
+https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+https://kubernetes.io/docs/tasks/debug/debug-application/debug-pods/
+https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+https://kubernetes.io/docs/concepts/configuration/configmap/
+https://kubernetes.io/docs/concepts/storage/persistent-volumes/
+https://kubernetes.io/docs/concepts/services-networking/service/
+https://kubernetes.io/docs/concepts/services-networking/ingress/
+https://kubernetes.io/docs/concepts/containers/images/
+https://kubernetes.io/docs/reference/kubectl/

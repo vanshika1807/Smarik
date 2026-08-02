@@ -1,0 +1,4 @@
+https://www.postgresql.org/docs/current/index.html
+https://www.postgresql.org/docs/current/runtime-config.html
+https://www.postgresql.org/docs/current/monitoring.html
+https://www.postgresql.org/docs/current/logfile-maintenance.html
